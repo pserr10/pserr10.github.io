@@ -1,18 +1,308 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Os Lisboa</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./scripts.js" async></script>
 
-    <head>
-        <meta charset="Utf-8">
-        <head>Bem vindos à página do Pedro!</head>
-        <title>A página do Pedro</title>
-    </head>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--Responsive Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a href=""><img class="logo" src="./assets/osLisboa.png" /></a>
 
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >A nossa casota <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Fala connosco</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Contactos</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Responsive Navbar-->
 
-    <body>
+    <div class="imageRepeat"></div>
 
-        <h1>Aqui vamos encontrar sardinhas..não tão boas</h1>
-     
+    <!--Slideshow section-->
+    <section id="carousel" class="container-fluid">
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="10000">
+            <img
+              src="./assets/1.jpg"
+              height="400px"
+              class="d-block w-100"
+              alt="slideshow1"
+            />
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img
+              src="./assets/guerraChap.jpg"
+              height="400px"
+              class="d-block w-100"
+              alt="slideshow2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/2.png"
+              height="400px"
+              class="d-block w-100"
+              alt="slideshow3"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleInterval"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleInterval"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!--Slideshow Section-->
+
+    <!--Intro Section---->
+    <article>
+      <section id="about-us">
+        <div class="container-fluid px-4 py-4 bg-white">
+          <div class="row">
+            <div class="col">
+              <h2 class="font-weight-bold my-5 text-center cover-image">
+                Bem-vindos à casota d'os Lisboa
+              </h2>
+              <p id="about" class="text-center">
+                Minim non reprehenderit laborum labore nulla consequat culpa
+                cillum ad qui. Eiusmod incididunt ullamco mollit qui consequat
+                et. Magna nostrud ea dolore ut Lorem nisi. Labore quis proident
+                aute pariatur est tempor aliquip est sit exercitation ea qui.
+                Reprehenderit consequat velit elit tempor incididunt excepteur
+                elit amet consectetur. Sunt enim sunt in aliquip adipisicing
+                adipisicing dolor adipisicing. Nostrud enim velit tempor amet ea
+                excepteur aliquip. Velit ad anim nostrud tempor exercitation id
+                nisi est laborum velit tempor enim mollit. Amet pariatur laboris
+                ea dolor. Et reprehenderit reprehenderit exercitation minim in
+                do sit dolor esse officia proident magna in. Nulla nulla quis
+                enim proident cupidatat laboris commodo exercitation veniam.
+                Velit qui incididunt mollit est laboris aliquip velit ullamco.
+                Proident pariatur culpa duis commodo et veniam ex irure. Velit
+                magna nisi esse laborum sint aliquip excepteur consequat eu
+                culpa amet Lorem. Pariatur quis do voluptate laborum. Incididunt
+                culpa minim laborum veniam. Sint eiusmod mollit deserunt sit
+                Lorem qui adipisicing amet in minim in laboris duis.
+                Exercitation incididunt pariatur consectetur do tempor aliquip
+                elit nostrud dolor aliquip anim ullamco.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+    <!--Intro Section---->
+
+    <!--Owners Section-->
+      <section id="owner">
+        <div class="container-fluid bg-white shadow py-2 px-2">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="ownersPic" src="assets/person1.jpg" width="100%">
+            </div>
+            <aside class="col-md-6">
+              <h2>As líderes da matilha</h2>
+              <p id="ownersInfo text-centered">Officia mollit dolor et veniam sit occaecat. Est fugiat anim cupidatat commodo. Laborum officia ullamco laborum et sint. Aliqua incididunt consequat magna qui officia sunt exercitation irure consectetur id esse. Tempor magna anim occaecat aliquip elit ipsum irure nisi ipsum cillum. Qui do sint laboris mollit proident.
+  
+  Officia do do pariatur enim deserunt nisi est commodo cupidatat nostrud culpa minim aute voluptate. Est cupidatat do fugiat fugiat laborum non. Adipisicing reprehenderit cupidatat est laborum fugiat ut.
+  
+  Quis amet sunt sit ex occaecat qui cillum. Commodo sint qui occaecat nisi anim pariatur commodo ipsum fugiat. Cillum dolor ad ut ad aute aliquip. Aute eiusmod voluptate nisi ex Lorem labore aute qui. Duis Lorem deserunt ut eiusmod do do elit. Ad aliqua adipisicing magna et culpa et nostrud.</p>
+  
+  
+              </aside>
+          </div>
+  
+        </div>
         
+      </section>
+    <!--Owners Section-->
 
-    </body>
+    <!--Gallery Section-->
+    <section class="row" id="gallery" >
+
+    </section>
+    <!--Gallery Section-->
+
+    <!--Contact us Section-->
+    <section id="contacts">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Comunica connosco :D</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" name="sentMessage">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      id="name"
+                      type="text"
+                      placeholder="Nome"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      id="phone"
+                      type="text"
+                      placeholder="Telefone"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      id="mail"
+                      type="text"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      placeholder="Envia a tua mensagem"
+                      required
+                    >
+                    </textarea>
+                  </div>
+                </div>
+
+                <div class="col-lg-12 text-center">
+                  <button
+                    id="sendMessageButton"
+                    class="btn btn-primary btn-xl text-uppercase"
+                    type="submit"
+                  >
+                    Escreve uma mensagem
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact us Section-->
+
+    <!--Social Media Section-->
+    <footer class="page-footer font-small bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+              <a class="item">
+                <a href="#"
+                  ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                ></a>
+              </a>
+              <a class="item">
+                <a href="#"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </a>
+              <a class="item">
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright text-center align-bottom-right">
+        © 2020 Copyright:
+        <a href="#"> -PedroCarvalho- </a>
+      </div>
+    </footer>
+    <!--Social Media Section-->
+
+    <!---->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
