@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1>Flappy Bird</h1>
+    <div fb-game class="game" onclick="jump()">
+        <div fp-block class="block pipe-hole"></div>
+        <div fp-hole class="hole pipe-hole"></div>
+        <div fp-character class="character rotate-down" id="character"></div>
+        <div fp-score class="score-main">0</div>
+        <div fp-gameover id="gameover" class="gameover over-button-screen" style="display: none;">
+            <h1>Game Over</h1>
+            <h3 fp-gameover-score class="gameover-score">Score: 0</h3>
+        </div>
+        <button fp-button class='button over-button-screen' style="display: none;" onclick="playAgain()">Play Again</button>
+        <div fp-opacity-screen class="opacityScreen over-button-screen" style="display: none;"></div>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
